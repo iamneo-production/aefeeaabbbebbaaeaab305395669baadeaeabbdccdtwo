@@ -17,8 +17,8 @@ public class ApiController {
 
     
 
-    @PostMapping("/api/student")
-    public boolean addNewData(@RequestBody Student student){
-        return apiService.addNew(student);
-    }
+    // @PostMapping("/api/student")
+    // public boolean addNewData(@RequestBody Student student){
+    //     return apiService.addNew(student);
+    // }
 }
